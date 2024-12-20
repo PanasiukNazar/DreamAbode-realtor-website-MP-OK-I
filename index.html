@@ -1,0 +1,758 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>ОбительМечты</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+        <meta content="" name="keywords" />
+        <meta content="" name="description" />
+
+        <!-- Favicon -->
+        <link href="img/favicon.ico" rel="icon" />
+
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Teko:wght@400;500;600&display=swap"
+            rel="stylesheet"
+        />
+
+        <!-- Icon Font Stylesheet -->
+        <link
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+            rel="stylesheet"
+        />
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+            rel="stylesheet"
+        />
+
+        <!-- Libraries Stylesheet -->
+        <link href="lib/animate/animate.min.css" rel="stylesheet" />
+        <link
+            href="lib/owlcarousel/assets/owl.carousel.min.css"
+            rel="stylesheet"
+        />
+        <link
+            href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css"
+            rel="stylesheet"
+        />
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet" />
+    </head>
+
+    <body>
+        <!-- Spinner Start -->
+        <div
+            id="spinner"
+            class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center"
+        >
+            <div
+                class="spinner-border position-relative text-primary"
+                style="width: 6rem; height: 6rem"
+                role="status"
+            ></div>
+            <img
+                class="position-absolute top-50 start-50 translate-middle"
+                src="img/icons/icon-1.png"
+                alt="Icon"
+            />
+        </div>
+        <!-- Spinner End -->
+
+        <!-- Navbar Start -->
+        <nav
+            class="navbar navbar-expand-lg bg-white navbar-light sticky-top py-lg-0 px-lg-5 wow fadeIn"
+            data-wow-delay="0.1s"
+        >
+            <a href="index.html" class="navbar-brand ms-4 ms-lg-0">
+                <h1 class="text-primary m-0">
+                    <img
+                        class="me-3"
+                        src="img/icons/icon-1.png"
+                        alt="Icon"
+                    />ОбительМечты
+                </h1>
+            </a>
+            <button
+                type="button"
+                class="navbar-toggler me-4"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarCollapse"
+            >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav ms-auto p-4 p-lg-0">
+                    <a href="index.html" class="nav-item nav-link active"
+                        >Главная</a
+                    >
+                    <a href="about.html" class="nav-item nav-link">О нас</a>
+                    <a href="service.html" class="nav-item nav-link">Услуги</a>
+                    <a href="testimonial.html" class="nav-item nav-link"
+                        >Отзывы</a
+                    >
+                    <a href="contact.html" class="nav-item nav-link"
+                        >Контакты</a
+                    >
+                </div>
+            </div>
+        </nav>
+        <!-- Navbar End -->
+
+        <!-- Carousel Start -->
+        <div class="container-fluid p-0 pb-5 wow fadeIn" data-wow-delay="0.1s">
+            <div class="owl-carousel header-carousel position-relative">
+                <div
+                    class="owl-carousel-item position-relative"
+                    data-dot="<img src='img/carousel-1.jpg'>"
+                >
+                    <img class="img-fluid" src="img/carousel-1.jpg" alt="" />
+                    <div class="owl-carousel-inner">
+                        <div class="container">
+                            <div class="row justify-content-start">
+                                <div class="col-10 col-lg-8">
+                                    <h1
+                                        class="display-1 text-white animated slideInDown"
+                                    >
+                                        Опыт в продаже квартир
+                                    </h1>
+                                    <p
+                                        class="fs-5 fw-medium text-white mb-4 pb-3"
+                                    >
+                                        Профессиональный риелтор знает, как
+                                        оценить рынок недвижимости и найти
+                                        лучшие предложения для клиентов. Мы
+                                        помогаем сделать выбор квартиры с
+                                        комфортом и новой мебелью простым и
+                                        удобным.
+                                    </p>
+                                    <a
+                                        href="about.html"
+                                        class="btn btn-primary py-3 px-5 animated slideInLeft"
+                                        >Подробнее</a
+                                    >
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="owl-carousel-item position-relative"
+                    data-dot="<img src='img/carousel-2.jpg'>"
+                >
+                    <img class="img-fluid" src="img/carousel-2.jpg" alt="" />
+                    <div class="owl-carousel-inner">
+                        <div class="container">
+                            <div class="row justify-content-start">
+                                <div class="col-10 col-lg-8">
+                                    <h1
+                                        class="display-1 text-white animated slideInDown"
+                                    >
+                                        Искусство переговоров
+                                    </h1>
+                                    <p
+                                        class="fs-5 fw-medium text-white mb-4 pb-3"
+                                    >
+                                        Мы мастерски ведем переговоры, чтобы
+                                        добиться лучших условий для наших
+                                        клиентов. Ваше удовлетворение — наш
+                                        главный приоритет.
+                                    </p>
+                                    <a
+                                        href="contact.html"
+                                        class="btn btn-primary py-3 px-5 animated slideInLeft"
+                                        >Свяжитесь с нами</a
+                                    >
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="owl-carousel-item position-relative"
+                    data-dot="<img src='img/carousel-3.jpg'>"
+                >
+                    <img class="img-fluid" src="img/carousel-3.jpg" alt="" />
+                    <div class="owl-carousel-inner">
+                        <div class="container">
+                            <div class="row justify-content-start">
+                                <div class="col-10 col-lg-8">
+                                    <h1
+                                        class="display-1 text-white animated slideInDown"
+                                    >
+                                        Построение доверительных отношений
+                                    </h1>
+                                    <p
+                                        class="fs-5 fw-medium text-white mb-4 pb-3"
+                                    >
+                                        Мы стремимся к долгосрочным отношениям с
+                                        клиентами, основанным на доверии и
+                                        профессионализме. Вы можете на нас
+                                        положиться.
+                                    </p>
+                                    <a
+                                        href="service.html"
+                                        class="btn btn-primary py-3 px-5 animated slideInLeft"
+                                        >Наши услуги</a
+                                    >
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Carousel End -->
+
+        <!-- Facts Start -->
+        <div class="container-xxl py-5">
+            <div class="container pt-5">
+                <div class="row g-4">
+                    <div
+                        class="col-lg-4 col-md-6 wow fadeInUp"
+                        data-wow-delay="0.1s"
+                    >
+                        <div
+                            class="fact-item text-center bg-light h-100 p-5 pt-0"
+                        >
+                            <div class="fact-icon">
+                                <img src="img/icons/icon-2.png" alt="Icon" />
+                            </div>
+                            <h3 class="mb-3">Индивидуальный подход</h3>
+                            <p class="mb-0">
+                                Профессиональный риелтор подбирает варианты
+                                жилья, учитывая все потребности и предпочтения
+                                клиентов. Мы помогаем найти квартиры с комфортом
+                                и новой мебелью, которые соответствуют вашим
+                                запросам.
+                            </p>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-4 col-md-6 wow fadeInUp"
+                        data-wow-delay="0.3s"
+                    >
+                        <div
+                            class="fact-item text-center bg-light h-100 p-5 pt-0"
+                        >
+                            <div class="fact-icon">
+                                <img src="img/icons/icon-3.png" alt="Icon" />
+                            </div>
+                            <h3 class="mb-3">
+                                Доступ к уникальным предложениям
+                            </h3>
+                            <p class="mb-0">
+                                Наши клиенты получают доступ к эксклюзивным
+                                предложениям на рынке недвижимости. Мы находим
+                                квартиры с комфортом и новой мебелью, которые
+                                идеально подходят по вашим критериям.
+                            </p>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-4 col-md-6 wow fadeInUp"
+                        data-wow-delay="0.5s"
+                    >
+                        <div
+                            class="fact-item text-center bg-light h-100 p-5 pt-0"
+                        >
+                            <div class="fact-icon">
+                                <img src="img/icons/icon-4.png" alt="Icon" />
+                            </div>
+                            <h3 class="mb-3">Эффективные переговоры</h3>
+                            <p class="mb-0">
+                                Мы используем навыки ведения переговоров для
+                                достижения самых выгодных условий для клиентов.
+                                Благодаря этому процесс покупки квартиры с
+                                комфортом и новой мебелью становится простым и
+                                удобным.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Facts End -->
+
+        <!-- About Start -->
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div class="row g-5">
+                    <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+                        <img
+                            class="img-fluid"
+                            src="img/approach-1.jpg"
+                            alt=""
+                        />
+                    </div>
+                    <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+                        <h4 class="section-title">Мой Подход</h4>
+                        <h1 class="display-5 mb-4">
+                            Как я стремлюсь предложить клиентам лучшие
+                            впечатления и комфорт
+                        </h1>
+                        <p>
+                            Как риэлтор по продаже квартир, мой подход
+                            ориентирован на клиента и на достижение наилучших
+                            результатов для каждой сделки. Я твердо уверен, что
+                            успех в недвижимости зависит не только от
+                            технических знаний, но и от способности строить
+                            крепкие и доверительные отношения с клиентами.
+                            Поэтому каждая встреча с клиентом — это возможность
+                            понять их конкретные потребности и предложить
+                            персонализированные решения, включая комфортное
+                            жилье с новой мебелью.
+                        </p>
+                        <p class="mb-4">
+                            Во-первых, я начинаю с активного выслушивания того,
+                            что хотят клиенты. Будь то покупка квартиры мечты
+                            или продажа недвижимости, понимание их целей имеет
+                            решающее значение. Этот начальный этап позволяет мне
+                            создать адаптированную стратегию, которая отвечает
+                            их конкретным требованиям, гарантируя, что каждый
+                            шаг процесса продажи будет прозрачным и эффективным.
+                            Еще одной ключевой частью моего подхода является
+                            использование современных инструментов и технологий
+                            для анализа рынка недвижимости. Я использую
+                            актуальные данные и тенденции для того, чтобы
+                            предоставлять клиентам точную и релевантную
+                            информацию, которая поможет им принимать
+                            обоснованные решения. Такой подход позволяет мне
+                            выявлять лучшие возможности для продаж и вести
+                            переговоры на выгодных условиях.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- About End -->
+
+        <!-- Feature Start -->
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div class="row g-5">
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <h4 class="section-title">
+                            Почему стоит выбрать меня?
+                        </h4>
+                        <h1 class="display-5 mb-4">
+                            Почему стоит работать со мной как с риэлтором по
+                            продаже квартир
+                        </h1>
+                        <p class="mb-4">
+                            Откройте для себя преимущества сотрудничества с
+                            профессионалом в сфере недвижимости. Работать с
+                            риэлтором по продаже квартир значит получать опыт,
+                            знания и полную отдачу. Моя цель — предоставить
+                            каждому клиенту индивидуальный подход и решение,
+                            основанное на глубоком знании рынка недвижимости в
+                            Казахстане. Моя клиентская ориентированность
+                            помогает подобрать оптимальные варианты
+                            недвижимости, соответствующие вашим требованиям.
+                            Работая со мной, вы получите доступ к обширной сети
+                            контактов и актуальной информации о рынке, что
+                            значительно упростит процесс покупки или продажи
+                            квартиры. Каждая сделка — это возможность установить
+                            долгосрочные отношения, основанные на доверии и
+                            профессионализме.
+                        </p>
+                        <div class="row g-4">
+                            <div class="col-12">
+                                <div class="d-flex align-items-start">
+                                    <img
+                                        class="flex-shrink-0"
+                                        src="img/icons/icon-2.png"
+                                        alt="Icon"
+                                    />
+                                    <div class="ms-4">
+                                        <h3>Экспертность и глубокие знания</h3>
+                                        <p class="mb-0">
+                                            Как риэлтор, я обладаю глубокими
+                                            знаниями о локальном рынке
+                                            недвижимости, что позволяет мне
+                                            предложить лучшие рекомендации и
+                                            выявить возможности, которые
+                                            соответствуют вашим требованиям. Моя
+                                            экспертность помогает предоставлять
+                                            эффективные и персонализированные
+                                            решения.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="d-flex align-items-start">
+                                    <img
+                                        class="flex-shrink-0"
+                                        src="img/icons/icon-3.png"
+                                        alt="Icon"
+                                    />
+                                    <div class="ms-4">
+                                        <h3>Индивидуальный подход</h3>
+                                        <p class="mb-0">
+                                            Каждый клиент уникален, и я
+                                            адаптирую свой подход в зависимости
+                                            от ваших требований. Слушая ваши
+                                            потребности и желания, я создаю
+                                            стратегию продажи, которая полностью
+                                            соответствует вашим ожиданиям,
+                                            гарантируя внимание к каждому
+                                            нюансу.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="d-flex align-items-start">
+                                    <img
+                                        class="flex-shrink-0"
+                                        src="img/icons/icon-4.png"
+                                        alt="Icon"
+                                    />
+                                    <div class="ms-4">
+                                        <h3>Успешные переговоры</h3>
+                                        <p class="mb-0">
+                                            Переговоры — ключевая часть процесса
+                                            покупки или продажи квартиры, и я
+                                            стремлюсь получить для своих
+                                            клиентов самые лучшие условия. Мои
+                                            навыки ведения переговоров обеспечат
+                                            вам выгодные сделки и максимальные
+                                            преимущества от каждой сделки.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="feature-img">
+                            <img
+                                class="img-fluid"
+                                src="img/feature-2.jpg"
+                                alt=""
+                            />
+                            <img
+                                class="img-fluid"
+                                src="img/feature-1.jpg"
+                                alt=""
+                            />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Feature End -->
+
+        <!-- Project Start -->
+        <div class="container-xxl project py-5">
+            <div class="container">
+                <div
+                    class="text-center mx-auto mb-5 wow fadeInUp"
+                    data-wow-delay="0.1s"
+                    style="max-width: 600px"
+                >
+                    <h4 class="section-title">Последние проекты</h4>
+                    <h1 class="display-5 mb-4">
+                        Откройте для себя самые новые достижения в сфере
+                        недвижимости
+                    </h1>
+                    <p>
+                        Как менеджер по продажам недвижимости, я стремлюсь
+                        предоставить лучшие возможности для моих клиентов. Этот
+                        раздел демонстрирует последние проекты, в которых я
+                        принимал участие, подчеркивая мой опыт в управлении
+                        продажами и удовлетворении потребностей клиентов. Каждый
+                        проект отражает мою приверженность предоставлению
+                        персонализированных решений и успешному проведению
+                        сделок на рынке недвижимости.
+                    </p>
+                </div>
+                <div class="row g-4 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="col-lg-4">
+                        <div
+                            class="nav nav-pills d-flex justify-content-between w-100 h-100 me-4"
+                        >
+                            <button
+                                class="nav-link w-100 d-flex align-items-center text-start p-4 mb-4 active"
+                                data-bs-toggle="pill"
+                                data-bs-target="#tab-pane-1"
+                                type="button"
+                            >
+                                <h3 class="m-0">01. Апартаменты</h3>
+                            </button>
+                            <button
+                                class="nav-link w-100 d-flex align-items-center text-start p-4 mb-4"
+                                data-bs-toggle="pill"
+                                data-bs-target="#tab-pane-2"
+                                type="button"
+                            >
+                                <h3 class="m-0">
+                                    02. Продажа Люксовых Апартаментов
+                                </h3>
+                            </button>
+                            <button
+                                class="nav-link w-100 d-flex align-items-center text-start p-4 mb-0"
+                                data-bs-toggle="pill"
+                                data-bs-target="#tab-pane-3"
+                                type="button"
+                            >
+                                <h3 class="m-0">
+                                    03. Продажа Недвижимости в Центре
+                                </h3>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-lg-8">
+                        <div class="tab-content w-100">
+                            <div
+                                class="tab-pane fade show active"
+                                id="tab-pane-1"
+                            >
+                                <div class="row g-4">
+                                    <div
+                                        class="col-md-6"
+                                        style="min-height: 350px"
+                                    >
+                                        <div class="position-relative h-100">
+                                            <img
+                                                class="position-absolute img-fluid w-100 h-100"
+                                                src="img/project-1.jpg"
+                                                style="object-fit: cover"
+                                                alt=""
+                                            />
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <h1 class="mb-3">
+                                            Продажа роскошных апартаментов в
+                                            центре города
+                                        </h1>
+                                        <p class="mb-4">
+                                            Этот проект включал продажу
+                                            роскошных апартаментов,
+                                            расположенных в самом сердце города,
+                                            с доступом к премиальным удобствам и
+                                            идеальным местоположением. Я
+                                            управлял процессом продажи от начала
+                                            до конца, гарантируя, что каждый
+                                            клиент получит персонализированный и
+                                            приятный опыт.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="tab-pane-2">
+                                <div class="row g-4">
+                                    <div
+                                        class="col-md-6"
+                                        style="min-height: 350px"
+                                    >
+                                        <div class="position-relative h-100">
+                                            <img
+                                                class="position-absolute img-fluid w-100 h-100"
+                                                src="img/project-2.jpg"
+                                                style="object-fit: cover"
+                                                alt=""
+                                            />
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <h1 class="mb-3">
+                                            Продажа люксовых апартаментов в
+                                            центре
+                                        </h1>
+                                        <p class="mb-4">
+                                            В рамках этого проекта я
+                                            способствовал продаже нескольких
+                                            элитных апартаментов в престижном
+                                            районе города. Это был один из самых
+                                            успешных проектов,
+                                            продемонстрировавших мой опыт и
+                                            стремление обеспечить
+                                            высококачественное обслуживание
+                                            клиентов.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="tab-pane-3">
+                                <div class="row g-4">
+                                    <div
+                                        class="col-md-6"
+                                        style="min-height: 350px"
+                                    >
+                                        <div class="position-relative h-100">
+                                            <img
+                                                class="position-absolute img-fluid w-100 h-100"
+                                                src="img/project-3.jpg"
+                                                style="object-fit: cover"
+                                                alt=""
+                                            />
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <h1 class="mb-3">
+                                            Продажа жилых апартаментов в
+                                            престижных районах
+                                        </h1>
+                                        <p class="mb-4">
+                                            Этот проект был посвящен продаже
+                                            жилых апартаментов в престижных и
+                                            востребованных районах. Моя задача
+                                            заключалась в создании маркетинговых
+                                            стратегий, которые позволили
+                                            привлечь потенциальных покупателей и
+                                            показать уникальные особенности
+                                            каждой недвижимости.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Project End -->
+
+        <!-- Footer Start -->
+        <div
+            class="container-fluid bg-dark text-body footer mt-5 pt-5 px-0 wow fadeIn"
+            data-wow-delay="0.1s"
+        >
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-lg-3 col-md-6">
+                        <h3 class="text-light mb-4">ОбительМечты</h3>
+                        <p>
+                            Как опытный менеджер по продаже недвижимости, я
+                            здесь, чтобы предложить вам лучшие решения на рынке
+                            недвижимости. С обширным опытом и глубокими знаниями
+                            рынка, я стремлюсь облегчить сделки и обеспечить
+                            удовлетворение клиентов с помощью
+                            персонализированных услуг.
+                        </p>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h3 class="text-light mb-4">Адрес</h3>
+                        <p class="mb-2">
+                            <i
+                                class="fa fa-map-marker-alt text-primary me-3"
+                            ></i>
+                            Бәйсейітова көшесі 45, Алматы 050000, Казахстан
+                        </p>
+                        <p class="mb-2">
+                            <i class="fa fa-phone-alt text-primary me-3"></i>
+                            +77070440949
+                        </p>
+                        <p class="mb-2">
+                            <i class="fa fa-envelope text-primary me-3"></i>
+                            dream_abode@gmail.com
+                        </p>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h3 class="text-light mb-4">Быстрые ссылки</h3>
+                        <a class="btn btn-link" href="about.html">О нас</a>
+                        <a class="btn btn-link" href="contact.html"
+                            >Свяжитесь с нами</a
+                        >
+                        <a class="btn btn-link" href="service.html"
+                            >Наши услуги</a
+                        >
+                        <a class="btn btn-link" href="terms-of-use.html"
+                            >Условия использования</a
+                        >
+                        <a class="btn btn-link" href="privacy-policy.html"
+                            >Политика конфиденциальности</a
+                        >
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h3 class="text-light mb-4">Новости</h3>
+                        <p>
+                            Подпишитесь на нашу рассылку, чтобы быть в курсе
+                            последних тенденций и возможностей на рынке
+                            недвижимости.
+                        </p>
+                        <div
+                            class="position-relative mx-auto"
+                            style="max-width: 400px"
+                        >
+                            <input
+                                class="form-control bg-transparent w-100 py-3 ps-4 pe-5"
+                                type="text"
+                                placeholder="Ваш email"
+                                id="email"
+                            />
+                            <button
+                                type="button"
+                                class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2"
+                                id="submit"
+                                onclick="sendForm()"
+                            >
+                                Подписаться
+                            </button>
+                        </div>
+                        <div
+                            id="result"
+                            style="color: red; font-size: 12px"
+                        ></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+        <!-- Cookie banner -->
+        <div class="cookie-wrapper show">
+            <div>
+                <i class="bx bx-cookie"></i>
+                <h2 style="text-align: center">
+                    Согласие на использование cookie
+                </h2>
+            </div>
+
+            <div class="data">
+                <p>
+                    Этот сайт использует cookie для предоставления вам
+                    улучшенного и более релевантного пользовательского опыта.
+                    <a href="#">Узнайте больше...</a>
+                </p>
+            </div>
+
+            <div class="buttons">
+                <button class="cookie-button" id="acceptBtn">Принять</button>
+                <button class="cookie-button" id="declineBtn">Отказать</button>
+            </div>
+        </div>
+        <!-- End Cookie banner -->
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"
+            ><i class="bi bi-arrow-up"></i
+        ></a>
+
+        <!-- JavaScript Libraries -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/wow/wow.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/counterup/counterup.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+        <script src="lib/tempusdominus/js/moment.min.js"></script>
+        <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+        <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+        <script src="js/contact-form.js"></script>
+        <script src="js/cookiebanner.js"></script>
+    </body>
+</html>
